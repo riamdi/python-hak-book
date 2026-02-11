@@ -43,6 +43,8 @@ import datetime
 #     client_socket.close()
 
 #5
+#new
+
 def handle_socket(client_socket, client_address):
     print(f'Connect to: {client_address}')
     data = datetime.datetime.now()
